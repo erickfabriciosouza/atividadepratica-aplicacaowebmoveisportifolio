@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Erick Fabrício Souza dos Santos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button id="theme-toggle">Alternar Tema</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <p>Olá! Meu nome é <strong>Erick Fabrício Souza dos Santos</strong>. Sou um desenvolvedor web em formação e apaixonado por tecnologia.</p>
+            <p>Meu foco atual é construir aplicações web eficientes e responsivas, resolvendo problemas reais através de código. Quando não estou programando, você provavelmente me encontrará na academia, onde pratico musculação e bodybuilding há cinco anos, ou passeando com a minha cachorra, Merida.</p>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação</h2>
+            <ul>
+                <li>
+                    <strong>Graduação em Engenharia de Software</strong>
+                    <p>Instituição: Uninter</p>
+                    <p>Foco em engenharia de sistemas, desenvolvimento ágil e boas práticas de codificação.</p>
+                </li>
+                <li>
+                    <strong>Cursos de Desenvolvimento Web</strong>
+                    <p>Plataforma: Udemy</p>
+                    <p>Domínio em HTML5 e CSS3 (incluindo estruturação avançada de layouts), além de JavaScript e TypeScript para interatividade e lógica de negócios.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portfólio</h2>
+            <p>Confira alguns dos projetos em que estive trabalhando recentemente no meu GitHub:</p>
+            <div class="projetos-grid">
+                <div class="projeto-card">
+                    <h3>Landing Page Responsiva</h3>
+                    <p>Projeto de interface utilizando HTML e CSS puros, focado em semântica e mobile-first.</p>
+                    <a href="https://github.com/Eric-025" target="_blank">Ver no GitHub</a>
+                </div>
+                <div class="projeto-card">
+                    <h3>App de Tarefas (JS)</h3>
+                    <p>Aplicação interativa para controle de tarefas diárias utilizando JavaScript puro e DOM manipulation.</p>
+                    <a href="https://github.com/Eric-025" target="_blank">Ver no GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="usuario@dominio.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Erick Fabrício Souza dos Santos</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
